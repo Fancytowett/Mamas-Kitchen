@@ -24,11 +24,12 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="bmd-label-floating">Password</label>
-                                    <input type="password" name="password" class="form-control" }} required>
+                                    <input type="password" name="password" class="form-control" required>
                                 </div>
 
-                                <a href="{{route('welcome')}}" class="btn btn-primary">login</a>
-                                <button type="submit" class="btn btn-danger">Back</button>
+
+                                <button type="submit" class="btn btn-primary">login</button>
+                                <a href="{{route('welcome')}}" class="btn btn-danger">Back</a>
                             </form>
                         </div>
                     </div>
